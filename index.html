@@ -16,17 +16,16 @@
 </head>
 
 <body>
-    <div class="vp-container">
+    <div id="Acceuil" class="vp-container">
         <header>
             <h2 class="vp-logo">
                 <i class="fas fa-crown"></i>
                 <a href="#">Ludor</a>
             </h2>
-
             <ul>
-                <li><a href="">Nos offres</a></li>
-                <li><a href="">Notre Equipe</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#offre">Nos offres</a></li>
+                <li><a href="#whoid">Notre Equipe</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </header>
         <section class="vp">
@@ -36,62 +35,157 @@
                     sunt odio officiis tenetur beatae autem quasi!</p>
             </div>
         </section>
-
-        <section class="offer">
-            <div class="container">
-                <h2 class="title">Nos dernier offres</h2>
-                <ul class="offer-list">
-                    <li class="offer-elem">
-                        <img src="images/house-1.jpg" alt="" srcset="" class="offer-elem-img">
-                        <div class="offer-elem-text">
-                            <p>Appartement - paris 75007</p>
-                            <p>11 chambres 450 m2</p>
-                            <div class="offer-separator"></div>
-                            <p>3 900 00 $ -11 000 00$</p>
-                        </div>
-                    </li>
-
-                    <li class="offer-elem">
-                        <img src="images/house-2.jpg" alt="" srcset="" class="offer-elem-img">
-                        <div class="offer-elem-text">
-                            <p>Appartement - Bordeaux 75007</p>
-                            <p>11 chambres 450 m2</p>
-                            <div class="offer-separator"></div>
-                            <p>3 900 00 $ -11 000 00$</p>
-                        </div>
-                    </li>
-
-                    <li class="offer-elem">
-                        <img src="images/house-3.jpg" alt="" srcset="" class="offer-elem-img">
-                        <div class="offer-elem-text">
-                            <p>Appartement - Bordeaux 75007</p>
-                            <p>11 chambres 450 m2</p>
-                            <div class="offer-separator"></div>
-                            <p>3 900 00 $ -11 000 00$</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-
-
-        <section class="who">
-            <img src="images/team.jpg" alt="" class="vp-img">
-
-            <div class="vp-text">
-                <h2>Une équipe de <strong> profesionnels</strong> avec plus de 10 ans d'expérience</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident fugiat eos minus id enim vel
-                    aliquam harum ab deleniti ipsum. Repellendus eaque neque est maxime eum at eveniet debitis fuga nisi
-                    illo eligendi autem inventore, nesciunt eius magni beatae officiis asperiores unde repellat iste
-                    soluta nulla cumque! Repellendus, harum incidunt. Odit voluptatibus voluptate quo nam!</p>
-
-            </div>
-        </section>
     </div>
 
+    <section id="offre" class="offer">
+        <div class="container">
+            <h2 class="title">Nos dernier offres</h2>
+            <ul class="offer-list">
+                <li class="offer-elem">
+                    <img src="images/house-1.jpg" alt="" srcset="" class="offer-elem-img" />
+                    <div class="offer-elem-text">
+                        <p>Appartement - paris 75007</p>
+                        <p>11 chambres 450 m2</p>
+                        <div class="offer-separator"></div>
+                        <p>3 900 00 $ -11 000 00$</p>
+                    </div>
+                </li>
+
+                <li class="offer-elem">
+                    <img src="images/house-2.jpg" alt="" srcset="" class="offer-elem-img">
+                    <div class="offer-elem-text">
+                        <p>Appartement - Bordeaux 75007</p>
+                        <p>11 chambres 450 m2</p>
+                        <div class="offer-separator"></div>
+                        <p>3 900 00 $ -11 000 00$</p>
+                    </div>
+                </li>
+
+                <li class="offer-elem">
+                    <img src="images/house-3.jpg" alt="" srcset="" class="offer-elem-img">
+                    <div class="offer-elem-text">
+                        <p>Appartement - Bordeaux 75007</p>
+                        <p>11 chambres 450 m2</p>
+                        <div class="offer-separator"></div>
+                        <p>3 900 00 $ -11 000 00$</p>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <div class="click-hand">
+            <a href="#Acceuil">
+                <i class="fas fa-hand-pointer hand"></i>
+                <i class="fas fa-hand-point-down"></i>
+            </a>
+        </div>
+    </section>
 
 
+
+    <section id="whoid" class="who">
+        <div class="vp-img">
+            <img src="images/team.jpg" alt="">
+        </div>
+        <div class="vp-text">
+            <h2>Une équipe de <strong> profesionnels</strong> avec plus de 10 ans d'expérience</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident fugiat eos minus id enim vel
+                aliquam harum ab deleniti ipsum. Repellendus eaque neque est maxime eum at eveniet debitis fuga nisi
+                illo eligendi autem inventore, nesciunt eius magni beatae officiis asperiores unde repellat iste
+                soluta nulla cumque! Repellendus, harum incidunt. Odit voluptatibus voluptate quo nam!</p>
+        </div>
+    </section>
+
+    <div class="click-hand">
+        <a href="#Acceuil">
+            <i class="fas fa-hand-pointer hand"></i>
+        </a>
+    </div>
+
+    <section id="Avis" class="avis-content">
+        <div class="container">
+            <h2 class="title">Voici ce qu'ils pensent de nous</h2>
+            <div class="box">
+                <p class="box-avis-txt">
+                    <i class="fas fa-quote-left"></i>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, aperiam. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Voluptatibus, ipsum?
+                    <i class="fas fa-quote-right"></i>
+                </p>
+
+                <div class="box-img">
+                    <img src="images/person-3.jpg" alt="img personne 1">
+                    <p>Dupont Franck</p>
+                    <em>CEO étoile</em>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="images/person-2.jpg" alt="img personne 1">
+                    <p>Dupont Franck</p>
+                    <em>CEO étoile</em>
+                </div>
+                <p class="box-avis-txt">
+                    <i class="fas fa-quote-left"></i>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In eaque consequatur illum, quia quis
+                    facere saepe consequuntur voluptate fugiat vel quod voluptatibus pariatur omnis quibusdam labore
+                    quisquam, unde eveniet? Sunt!
+                    <i class="fas fa-quote-right"></i>
+                </p>
+            </div>
+
+            <div class="box">
+                <p class="box-avis-txt">
+                    <i class="fas fa-quote-left"></i>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum ullam ab cum, hic perspiciatis,
+                    velit non, commodi consequatur enim illum repellat distinctio dolorum tempore excepturi consectetur
+                    placeat nam. Facilis eum ullam quo adipisci ducimus nesciunt perspiciatis aut illum, doloribus
+                    excepturi, voluptates quasi, iure labore? Voluptatum!
+                    <i class="fas fa-quote-right"></i>
+                </p>
+                <div class="box-img">
+                    <img src="images/person-1.jpg" alt="img personne 1">
+                    <p>Dupont Franck</p>
+                    <em>CEO étoile</em>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="click-hand">
+        <a href="#Acceuil">
+            <i class="fas fa-hand-pointer hand"></i>
+            <i class="fas fa-hand-point-down"></i>
+        </a>
+    </div>
+
+    <section id="contact" class="vp-contact-form">
+        <div class="contact">
+            <form action="submit" class="form-contact">
+
+                <h1 class="text-contact">Pour nous <strong> contacter</strong></h1>
+                <input type="text" name="nom" id="nomId" placeholder="Nom">
+                <div class="ligne"></div>
+                <input type="email" name="email" id="emailId" placeholder="Email">
+                <div class="ligne"></div>
+                <textarea rows="4" cols="20" placeholder="Votre message..."></textarea>
+                <div class="ligne"></div>
+
+                <button>Soumettre</button>
+            </form>
+            
+            <div class="click-hand">
+                <a href="#Acceuil">
+                    <i class="fas fa-hand-pointer hand"></i>
+                </a>
+            </div>
+    </section>
+
+    <footer>
+        <p> Copyright © 2022 Yasmine, Inc.</p>
+    </footer>
 
 </body>
 
