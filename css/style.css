@@ -78,7 +78,7 @@ header a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('/images/frame.jpg') center center/cover;
+    background: url('/projet-ludor/images/frame.jpg') center center/cover;
 
 }
 
@@ -103,7 +103,6 @@ header ul li {
 
 .vp-content h1 {
     font-size: 3.2rem;
-
     margin-bottom: 2rem;
 }
 
@@ -174,7 +173,6 @@ strong {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
 .vp-text {
@@ -345,7 +343,6 @@ textarea:focus, input:focus {
 }
 
 
-
 /* Section footer*/
 
 footer {
@@ -356,9 +353,8 @@ footer {
     text-align: center;
     justify-items: center;
     height: auto;
-  
-    
 }
+
 footer p{
     font-size: 24px;
     color: white;
@@ -370,11 +366,10 @@ footer p{
     justify-content: flex-end;
     margin-bottom: 2rem;
     margin-right: 2rem;
-   
-
 }
 .hand{
     color:#f1c40f;
     font-size: 40px;
     margin-top: 1.5rem;
+    margin-right: 1rem;
 }
